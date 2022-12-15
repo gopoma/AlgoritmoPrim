@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script defer src="./js/app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Algoritmo de Prim</h1>
+    </header>
+    <main class="graph">
+        <span class="graph__node" id="gNode0">0</span>
+        <span class="graph__node" id="gNode1">1</span>
+        <span class="graph__node" id="gNode2">2</span>
+        <span class="graph__node" id="gNode3">3</span>
+        <span class="graph__node" id="gNode4">4</span>
+
+        <span class="graph__edge" id="gEdge0-1">&nbsp;</span>
+        <span class="graph__edge" id="gEdge0-2">&nbsp;</span>
+        <span class="graph__edge" id="gEdge0-3">&nbsp;</span>
+        <span class="graph__edge" id="gEdge0-4">&nbsp;</span>
+        <span class="graph__edge" id="gEdge1-2">&nbsp;</span>
+        <span class="graph__edge" id="gEdge1-3">&nbsp;</span>
+        <span class="graph__edge" id="gEdge1-4">&nbsp;</span>
+        <span class="graph__edge" id="gEdge2-3">&nbsp;</span>
+        <span class="graph__edge" id="gEdge2-4">&nbsp;</span>
+        <span class="graph__edge" id="gEdge3-4">&nbsp;</span>
+
+        <span class="graph__weight" id="gWeight0-1">1</span>
+        <span class="graph__weight" id="gWeight0-2">2</span>
+        <span class="graph__weight" id="gWeight0-3">3</span>
+        <span class="graph__weight" id="gWeight0-4">4</span>
+        <span class="graph__weight" id="gWeight1-2">5</span>
+        <span class="graph__weight" id="gWeight1-3">6</span>
+        <span class="graph__weight" id="gWeight1-4">7</span>
+        <span class="graph__weight" id="gWeight2-3">8</span>
+        <span class="graph__weight" id="gWeight2-4">9</span>
+        <span class="graph__weight" id="gWeight3-4">10</span>
+
+        <section class="algorithm">
+            <h4 class="algorithm__title">Matriz de Adyacencia</h4>
+            <section class="adjacency__inputs"></section>
+            <section class="algorithm__controls">
+                <article class="algorithm__control">
+                    <label class="algorithm__label" for="srcControl">src:</label><input class="algorithm__control-input" type="number" id="srcControl" value="0">
+                </article>
+                <article class="algorithm__control">
+                    <label class="algorithm__label" for="delayControl">delay (ms):</label><input class="algorithm__control-input" type="number" id="delayControl" value="1000">
+                </article>
+            </section>
+            <button class="adjacency__btn" id="btnStartAlgorithm">Comenzar Algoritmo de Prim</button>
+        </section>
+    </main>
+</body>
+</html>
